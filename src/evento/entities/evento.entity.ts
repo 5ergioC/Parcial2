@@ -1,10 +1,4 @@
-import {
-  Column,
-  Entity,
-  ManyToOne,
-  OneToMany,
-  PrimaryGeneratedColumn,
-} from 'typeorm';
+import { Column, Entity, ManyToOne, OneToMany, PrimaryGeneratedColumn,} from 'typeorm';
 import { PonenteEntity } from '../../ponente/entities/ponente.entity';
 import { AuditorioEntity } from '../../auditorio/entities/auditorio.entity';
 import { AsistenteEntity } from '../../asistente/entities/asistente.entity';
